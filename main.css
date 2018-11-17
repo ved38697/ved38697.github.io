@@ -1,0 +1,75 @@
+#accordion div { 
+    overflow: hidden; 
+    height: 0; 
+    transition: height 1s ease-in-out; 
+    -webkit-transition: height 4s ease-in-out;     
+} 
+#accordion div:target { 
+    height: 400px; 
+} 
+h1 { 
+    background-color: purple;
+    color: white; 
+	text-align: center;
+	font-size: 50px;
+	font-family: "georgia";
+	font-weight: bold;
+} 
+h3 { 
+    background-color: #C39BD3; 
+    color: white; 
+	text-align: center;
+	font-family: "verdana";
+} 
+a {     
+    text-decoration: none; 
+} 
+a:visited { 
+    font-weight: bold; 
+    color: white; 
+    size: 200%; 
+} 
+a:hover { 
+    font-weight: bold; 
+    color: blue; 
+} 
+a:active { 
+    font-weight: bold; 
+    color: black; 
+    background-color:gray; 
+} 
+#area1 { 
+    background-color: #BDA8C1; 
+    font-weight: normal; 
+    color: black; 
+} 
+#area2 { 
+    background-color: white; 
+    font-weight: normal; 
+    color: black; 
+	text-align: center;
+	font-size: 40px;
+} 
+#area3 { 
+    background-color: #BDA8C1; 
+    font-weight: normal; 
+    color: black; 
+	text-align: center;
+	font-size: 20px;
+}  
+ body {
+	background-image: url(https://assets3-my.umbc.edu/system/shared/avatars/groups/000/000/054/65df376cb19d1a208ea312d7f58c7579/xxxlarge.png?1406049672);
+}
+table, th, td {
+   margin: 0px auto;
+   border: 4px solid black;
+   border-style: dotted solid double;
+   border-collapse: collapse;
+   text-align: center;
+   padding: 5px;
+   background-color: #C39BD3;
+}
+th {
+    background-color: #EACA54;
+    color: white;
+}
